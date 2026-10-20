@@ -37,6 +37,6 @@ export const faqItems: FaqItem[] = [
   {
     question: "What if I already have a website that needs a redesign?",
     answer:
-      "We offer a free 10-minute audit of your current site. Based on that, we'll recommend whether a redesign or a fresh build is the better investment for your business.",
+      "We will gladly evaluate your current website on a free discovery call. Based on your speed, UX, and conversion bottlenecks, we'll recommend whether a targeted redesign or a clean rebuild is the better investment.",
   },
 ];

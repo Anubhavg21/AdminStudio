@@ -12,35 +12,39 @@ export interface QuoteQuestion {
 export const quoteQuestions: QuoteQuestion[] = [
   {
     id: "type",
-    question: "What type of website do you need?",
+    question: "What type of solution do you need?",
     options: [
       { label: "Business / Portfolio Website", value: "business" },
       { label: "E-commerce Store", value: "ecommerce" },
-      { label: "Landing Page", value: "landing" },
-      { label: "Custom Web App / SaaS", value: "webapp" },
-      { label: "WordPress / Shopify Site", value: "cms" },
+      { label: "Custom CRM & Sales Pipeline", value: "crm" },
+      { label: "AI Automation Tool & Agent", value: "ai" },
+      { label: "Custom Web App / SaaS MVP", value: "webapp" },
+      { label: "WordPress / Shopify System", value: "cms" },
+      { label: "High-Converting Landing Page", value: "landing" },
     ],
   },
   {
     id: "pages",
-    question: "How many pages do you need?",
+    question: "What is the expected scope / scale?",
     options: [
-      { label: "1–5 pages", value: "small" },
-      { label: "6–10 pages", value: "medium" },
-      { label: "11–20 pages", value: "large" },
-      { label: "20+ pages", value: "xlarge" },
+      { label: "1–5 pages / Lean setup", value: "small" },
+      { label: "6–10 pages / Multi-channel", value: "medium" },
+      { label: "11–20 pages / Enterprise", value: "large" },
+      { label: "Complex System / Unlimited", value: "xlarge" },
     ],
   },
   {
     id: "features",
-    question: "Which features do you need?",
+    question: "Which integrations & features do you need?",
     options: [
       { label: "Contact Form & WhatsApp Chat", value: "contact" },
-      { label: "Blog / News Section", value: "blog" },
-      { label: "Online Payments", value: "payments" },
-      { label: "User Accounts & Login", value: "auth" },
-      { label: "Booking / Appointment System", value: "booking" },
-      { label: "Admin Dashboard", value: "admin" },
+      { label: "CRM Lead Pipeline Sync", value: "crm_integration" },
+      { label: "AI Automation / Bot Workflow", value: "ai_bot" },
+      { label: "Online Payments & Invoicing", value: "payments" },
+      { label: "User Accounts & Authentication", value: "auth" },
+      { label: "Automated Booking & Appointments", value: "booking" },
+      { label: "Admin Analytics Dashboard", value: "admin" },
+      { label: "SEO & Core Web Vitals Boost", value: "seo" },
     ],
   },
 ];
@@ -62,6 +66,8 @@ export function calculateEstimate(
   const basePrices: Record<string, PriceRange> = {
     business: { minINR: 14999, maxINR: 29999, minUSD: 299, maxUSD: 599 },
     ecommerce: { minINR: 49999, maxINR: 99999, minUSD: 999, maxUSD: 1999 },
+    crm: { minINR: 34999, maxINR: 79999, minUSD: 699, maxUSD: 1599 },
+    ai: { minINR: 29999, maxINR: 69999, minUSD: 599, maxUSD: 1399 },
     landing: { minINR: 9999, maxINR: 19999, minUSD: 199, maxUSD: 399 },
     webapp: { minINR: 74999, maxINR: 149999, minUSD: 1499, maxUSD: 2999 },
     cms: { minINR: 19999, maxINR: 39999, minUSD: 399, maxUSD: 799 },
@@ -78,11 +84,13 @@ export function calculateEstimate(
   // Feature add-ons
   const featureAdds: Record<string, PriceRange> = {
     contact: { minINR: 0, maxINR: 2000, minUSD: 0, maxUSD: 40 },
-    blog: { minINR: 3000, maxINR: 5000, minUSD: 60, maxUSD: 100 },
+    crm_integration: { minINR: 8000, maxINR: 15000, minUSD: 160, maxUSD: 300 },
+    ai_bot: { minINR: 10000, maxINR: 20000, minUSD: 200, maxUSD: 400 },
     payments: { minINR: 5000, maxINR: 10000, minUSD: 100, maxUSD: 200 },
     auth: { minINR: 8000, maxINR: 15000, minUSD: 160, maxUSD: 300 },
     booking: { minINR: 5000, maxINR: 10000, minUSD: 100, maxUSD: 200 },
     admin: { minINR: 10000, maxINR: 20000, minUSD: 200, maxUSD: 400 },
+    seo: { minINR: 4000, maxINR: 8000, minUSD: 80, maxUSD: 160 },
   };
 
   const base = basePrices[type] || basePrices.business;

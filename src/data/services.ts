@@ -7,6 +7,10 @@ import {
   RefreshCw,
   Rocket,
   Wrench,
+  Database,
+  Bot,
+  Cpu,
+  Gauge,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -14,55 +18,89 @@ export interface Service {
   title: string;
   benefit: string;
   icon: LucideIcon;
+  tag?: string;
 }
 
 export const services: Service[] = [
   {
+    title: "CRM & Sales Pipelines",
+    benefit:
+      "Automate lead capture, customer tracking, and team follow-ups with tailored CRM dashboards (HubSpot, Zoho, or custom builds).",
+    icon: Database,
+    tag: "High Demand",
+  },
+  {
+    title: "AI Automations & Agents",
+    benefit:
+      "Deploy intelligent AI assistants, automated customer support, document processors, and n8n/Zapier workflows to save 20+ hours weekly.",
+    icon: Bot,
+    tag: "Trending",
+  },
+  {
     title: "Business Websites",
     benefit:
-      "A professional online presence that builds trust and brings you leads around the clock.",
+      "A fast, high-converting digital storefront that builds authority and turns incoming traffic into qualified inquiries.",
     icon: Globe,
   },
   {
     title: "E-commerce Stores",
     benefit:
-      "Sell products online with secure payments, inventory management and a smooth checkout.",
+      "High-converting shopping experiences with seamless checkout, inventory tracking, Stripe/Razorpay, and abandoned cart recovery.",
     icon: ShoppingCart,
   },
   {
-    title: "Custom Web Apps",
+    title: "Custom Web Apps & Dashboards",
     benefit:
-      "Tailored tools and dashboards that automate your workflows and save hours every week.",
+      "Tailor-made software tools and internal portals that streamline complex business processes without subscription bloat.",
     icon: Code2,
   },
   {
-    title: "WordPress & Shopify",
+    title: "WordPress & Shopify Systems",
     benefit:
-      "Get set up on the platform you prefer — fully customised, not a generic template.",
+      "Fully customized, speed-optimized implementations on your preferred platform — never a generic, clunky template.",
     icon: Blocks,
   },
   {
-    title: "Landing Pages for Ads",
+    title: "Meta Ads & Digital Marketing",
     benefit:
-      "High-converting pages designed to turn your ad clicks into paying customers.",
+      "Full-funnel ad campaigns across Facebook, Instagram & Google Ads paired with high-converting landing pages to lower CAC and maximize ROAS.",
     icon: Target,
+    tag: "Growth",
   },
   {
-    title: "Website Redesign",
+    title: "SEO & Search Visibility",
     benefit:
-      "Modernise your existing site so it loads fast, looks great and actually converts.",
+      "Technical on-page SEO, schema markup, and keyword optimization to earn organic search traffic and outrank competitors on Google.",
+    icon: Gauge,
+  },
+  {
+    title: "Website Redesign & Upgrades",
+    benefit:
+      "Revamp outdated websites with modern design, faster load times, and mobile-first UX that restores visitor trust.",
     icon: RefreshCw,
   },
   {
-    title: "SaaS MVP",
+    title: "SaaS MVP Development",
     benefit:
-      "Launch your software idea with a lean, functional first version — fast.",
+      "Ship your software idea in weeks with a lean, scalable production build ready for paying users and early investors.",
     icon: Rocket,
   },
   {
-    title: "Maintenance & Support",
+    title: "Cloud APIs & Integrations",
     benefit:
-      "Keep your site updated, secure and running smoothly without lifting a finger.",
+      "Connect your disparate tools, ERPs, accounting systems, and payment gateways into one unified, synchronized ecosystem.",
+    icon: Cpu,
+  },
+  {
+    title: "Speed & Core Web Vitals",
+    benefit:
+      "Eliminate slow loading and technical debt with code-level optimizations that boost Google search rankings.",
+    icon: Gauge,
+  },
+  {
+    title: "Ongoing Maintenance & Support",
+    benefit:
+      "Proactive security updates, uptime monitoring, bug fixes, and continuous improvements without needing an in-house hire.",
     icon: Wrench,
   },
 ];
