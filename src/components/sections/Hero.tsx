@@ -8,7 +8,7 @@ import Image from "next/image";
 const trustItems = [
   { icon: Shield, label: "3 Live Projects", value: "3" },
   { icon: Clock, label: "24h Response Time", value: "24h" },
-  { icon: Users, label: "2 Senior Developers", value: "2" },
+  { icon: Users, label: "10  Developers", value: "10" },
   { icon: Headphones, label: "30 Days Free Support", value: "30d" },
 ];
 

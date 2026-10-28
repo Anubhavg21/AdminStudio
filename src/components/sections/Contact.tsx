@@ -72,7 +72,7 @@ export function Contact() {
               Ready to turn your website into a deal-closing asset?
             </h2>
             <p className="text-lg text-muted">
-              Book a call directly with Vanshika, send a message below, or start a WhatsApp chat for an instant response.
+              Book a call directly with our team, send a message below, or start a WhatsApp chat for an instant response.
             </p>
           </ScrollReveal>
         </div>
@@ -96,7 +96,7 @@ export function Contact() {
                       Message Sent Successfully!
                     </h4>
                     <p className="text-sm text-muted mb-6">
-                      Thank you! Vanshika has received your note and will reach out to you within 24 hours.
+                      Thank you! We have received your note and will reach out to you within 24 hours.
                     </p>
                     <button
                       type="button"
@@ -228,7 +228,7 @@ export function Contact() {
                   Book a 20-min Discovery Call
                 </h3>
                 <p className="text-xs text-muted mb-6 leading-relaxed">
-                  Skip the emails and grab a slot directly on Vanshika&apos;s calendar to discuss your timeline, scope, and ideas.
+                  Skip the emails and grab a slot directly on our calendar to discuss your timeline, scope, and ideas.
                 </p>
 
                 <a
@@ -259,7 +259,7 @@ export function Contact() {
                   </div>
                   <div>
                     <span className="text-xs font-semibold text-foreground block">
-                      Direct Call (Vanshika)
+                      Direct Call
                     </span>
                     <span className="text-[11px] text-muted">
                       {contact.phone}
@@ -268,7 +268,7 @@ export function Contact() {
                 </a>
 
                 <a
-                  href={`https://wa.me/${contact.whatsapp}?text=Hi%20Vanshika!%20I'd%20like%20to%20discuss%20a%20website%20project.`}
+                  href={`https://wa.me/${contact.whatsapp}?text=Hi!%20I'd%20like%20to%20discuss%20a%20website%20project.`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3.5 p-3 rounded-2xl bg-background border border-border hover:border-success/40 transition-colors"

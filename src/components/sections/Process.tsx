@@ -21,7 +21,7 @@ export function Process() {
               A smooth 5-step roadmap from kickoff to launch.
             </h2>
             <p className="text-lg text-muted">
-              No black-box mystery. You know exactly what’s happening every week with Vanshika guiding every step.
+              No black-box mystery. You know exactly what’s happening every week with transparent updates at every step.
             </p>
           </ScrollReveal>
         </div>

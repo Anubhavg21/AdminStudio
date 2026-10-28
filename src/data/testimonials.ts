@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
     role: "Founder, an interior design studio",
     location: "Mumbai, India",
     quote:
-      "Vanshika understood exactly what we needed. The site went live in two weeks and we started getting enquiries from Google within the first month. The whole process was stress-free.",
+      "Anvik Studio understood exactly what we needed. The site went live in two weeks and we started getting enquiries from Google within the first month. The whole process was stress-free.",
   },
   {
     name: "James O'Connor",

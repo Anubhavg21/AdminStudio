@@ -19,7 +19,6 @@ export const navLinks = [
   { label: "Services", href: "#services" },
   { label: "Process", href: "#process" },
   { label: "Pricing", href: "#pricing" },
-  { label: "Team", href: "#team" },
   { label: "FAQ", href: "#faq" },
 ];
 
@@ -41,7 +40,7 @@ export const processSteps = [
     step: 1,
     title: "Discovery Call",
     description:
-      "A free 20-minute call where Vanshika learns about your business, goals and budget.",
+      "A free 20-minute call where we learn about your business, goals and budget.",
   },
   {
     step: 2,
@@ -59,7 +58,7 @@ export const processSteps = [
     step: 4,
     title: "Development with Weekly Updates",
     description:
-      "Our developers build your site while Vanshika keeps you updated every week.",
+      "Our developers build your site while keeping you updated every week.",
   },
   {
     step: 5,
@@ -111,7 +110,7 @@ export const comparisonTable = {
       label: "Communication",
       freelancer: "Slow, unstructured",
       agency: "Account manager layers",
-      anvik: "One point of contact (Vanshika)",
+      anvik: "One dedicated point of contact",
     },
     {
       label: "Cost",

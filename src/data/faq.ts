@@ -32,7 +32,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "I'm in the UK/US — can we still work together smoothly?",
     answer:
-      "Absolutely. Our team works on IST, which overlaps well with UK mornings and US morning slots. Vanshika, your project lead, is available for calls and updates at times that suit your schedule.",
+      "Absolutely. Our team works on IST, which overlaps well with UK mornings and US morning slots. Your dedicated project lead is available for calls and updates at times that suit your schedule.",
   },
   {
     question: "What if I already have a website that needs a redesign?",

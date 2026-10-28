@@ -35,7 +35,6 @@ All editable business copy, pricing, team members, testimonials, portfolio items
 | `src/data/portfolio.ts` | Selected Work | Project titles, live links, challenge/solution one-liners, tech tags, screenshot paths |
 | `src/data/pricing.ts` | Pricing Plans | Starter, Business, and Custom plan deliverables, timeline, INR and USD pricing |
 | `src/data/services.ts` | Services Bento | 8 service cards with benefit-led descriptions for non-technical business owners |
-| `src/data/team.ts` | Team Profiles | Vanshika (Project Lead), Anubhav, and Ankit bios, focus areas, and contact links |
 | `src/data/testimonials.ts` | Client Reviews | Authentic testimonials from business owners in India, UK, and the US |
 | `src/data/faq.ts` | FAQ Accordion | Answers regarding timelines, payment milestones (40/30/30), NDA, and time zones |
 | `src/data/quote.ts` | Quote Estimator | Question options, multipliers, and feature add-on calculations |
@@ -49,8 +48,7 @@ All placeholders are marked with `// TODO:` comments across the codebase for eas
 1. **Calendly URL**: Update `calendlyUrl` in `src/data/site.ts`.
 2. **WhatsApp Number**: Update `whatsapp` in `src/data/site.ts` (format: country code without `+` or spaces, e.g., `919876543210`).
 3. **Contact Email**: Update `email` in `src/data/site.ts`.
-4. **Team Photos**: Drop avatar photos in `/public/team/` and set `photo: "/team/yourname.jpg"` in `src/data/team.ts`. Initial-based gradients are displayed automatically when no photo is provided.
-5. **Portfolio Screenshots**: Live screenshots are stored in `/public/work/`:
+4. **Portfolio Screenshots**: Live screenshots are stored in `/public/work/`:
    - `archifit-desktop.png` & `archifit-mobile.png`
    - `bmindful-desktop.png` & `bmindful-mobile.png`
    - `ipas-desktop.png` & `ipas-mobile.png`

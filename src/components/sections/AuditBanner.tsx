@@ -70,7 +70,7 @@ export function AuditBanner() {
                   <div>
                     <h4 className="font-bold">Audit Request Received!</h4>
                     <p className="text-xs text-background/90">
-                      Vanshika will review your website and send your 10-minute video audit to {email} within 24 hours.
+                      Our team will review your website and send your 10-minute video audit to {email} within 24 hours.
                     </p>
                   </div>
                 </div>

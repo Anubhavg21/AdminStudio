@@ -19,7 +19,7 @@ export function Testimonials() {
               Trusted by founders across India, the UK, and the US.
             </h2>
             <p className="text-lg text-muted">
-              Here is what business owners have to say about working with Vanshika and our development team.
+              Here is what business owners have to say about working with our team.
             </p>
           </ScrollReveal>
         </div>

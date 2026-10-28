@@ -49,7 +49,7 @@ export function QuoteEstimator() {
     selectedPages;
 
   const whatsappMessage = encodeURIComponent(
-    `Hi Vanshika! I used the quote estimator on Anvik Studio:\n- Website Type: ${typeLabel}\n- Pages: ${pagesLabel}\n- Features: ${selectedFeatures.join(
+    `Hi! I used the quote estimator on Anvik Studio:\n- Website Type: ${typeLabel}\n- Pages: ${pagesLabel}\n- Features: ${selectedFeatures.join(
       ", "
     )}\n- Estimated range: ${formattedMin} - ${formattedMax}\n\nI'd like to get an exact quote.`
   );
@@ -93,11 +93,10 @@ export function QuoteEstimator() {
                     key={opt.value}
                     type="button"
                     onClick={() => setSelectedType(opt.value)}
-                    className={`p-3.5 rounded-xl text-left text-sm font-medium border transition-all ${
-                      selectedType === opt.value
-                        ? "bg-accent/10 border-accent text-accent font-semibold shadow-xs"
-                        : "bg-surface border-border-light text-foreground/80 hover:border-border"
-                    }`}
+                    className={`p-3.5 rounded-xl text-left text-sm font-medium border transition-all ${selectedType === opt.value
+                      ? "bg-accent/10 border-accent text-accent font-semibold shadow-xs"
+                      : "bg-surface border-border-light text-foreground/80 hover:border-border"
+                      }`}
                   >
                     {opt.label}
                   </button>
@@ -119,11 +118,10 @@ export function QuoteEstimator() {
                     key={opt.value}
                     type="button"
                     onClick={() => setSelectedPages(opt.value)}
-                    className={`p-3.5 rounded-xl text-center text-sm font-medium border transition-all ${
-                      selectedPages === opt.value
-                        ? "bg-accent/10 border-accent text-accent font-semibold shadow-xs"
-                        : "bg-surface border-border-light text-foreground/80 hover:border-border"
-                    }`}
+                    className={`p-3.5 rounded-xl text-center text-sm font-medium border transition-all ${selectedPages === opt.value
+                      ? "bg-accent/10 border-accent text-accent font-semibold shadow-xs"
+                      : "bg-surface border-border-light text-foreground/80 hover:border-border"
+                      }`}
                   >
                     {opt.label}
                   </button>
@@ -147,19 +145,17 @@ export function QuoteEstimator() {
                       key={opt.value}
                       type="button"
                       onClick={() => toggleFeature(opt.value)}
-                      className={`p-3.5 rounded-xl text-left text-sm font-medium border transition-all flex items-center justify-between ${
-                        isChecked
-                          ? "bg-accent/10 border-accent text-accent font-semibold shadow-xs"
-                          : "bg-surface border-border-light text-foreground/80 hover:border-border"
-                      }`}
+                      className={`p-3.5 rounded-xl text-left text-sm font-medium border transition-all flex items-center justify-between ${isChecked
+                        ? "bg-accent/10 border-accent text-accent font-semibold shadow-xs"
+                        : "bg-surface border-border-light text-foreground/80 hover:border-border"
+                        }`}
                     >
                       <span>{opt.label}</span>
                       <div
-                        className={`w-4 h-4 rounded-sm border flex items-center justify-center ${
-                          isChecked
-                            ? "bg-accent border-accent text-white"
-                            : "border-muted/40"
-                        }`}
+                        className={`w-4 h-4 rounded-sm border flex items-center justify-center ${isChecked
+                          ? "bg-accent border-accent text-white"
+                          : "border-muted/40"
+                          }`}
                       >
                         {isChecked && <Check className="w-3 h-3 stroke-[3]" />}
                       </div>
@@ -199,8 +195,8 @@ export function QuoteEstimator() {
                     {selectedPages === "small"
                       ? "7–10 days"
                       : selectedPages === "medium"
-                      ? "14–21 days"
-                      : "3–5 weeks"}
+                        ? "14–21 days"
+                        : "3–5 weeks"}
                   </span>
                 </div>
                 <div className="flex justify-between">
@@ -230,7 +226,7 @@ export function QuoteEstimator() {
                   className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/10 text-white text-sm font-semibold hover:bg-white/20 transition-all"
                 >
                   <Mail className="w-4 h-4" />
-                  Email this estimate to Vanshika
+                  Email this estimate to our team
                 </a>
               </div>
             </div>

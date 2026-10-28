@@ -8,7 +8,6 @@ import { QuoteEstimator } from "@/components/sections/QuoteEstimator";
 import { Pricing } from "@/components/sections/Pricing";
 import { Comparison } from "@/components/sections/Comparison";
 import { TrustGuarantees } from "@/components/sections/TrustGuarantees";
-import { Team } from "@/components/sections/Team";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Faq } from "@/components/sections/Faq";
 import { Contact } from "@/components/sections/Contact";
@@ -49,10 +48,7 @@ export default function Home() {
         {/* 10. Trust & Guarantees */}
         <TrustGuarantees />
 
-        {/* 11. Team */}
-        <Team />
-
-        {/* 12. Testimonials */}
+        {/* 11. Testimonials */}
         <Testimonials />
 
         {/* 13. FAQ Accordion */}
