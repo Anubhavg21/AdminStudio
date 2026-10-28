@@ -30,9 +30,9 @@ export const faqItems: FaqItem[] = [
       "We'll guide you through choosing the right hosting and domain, and we can set it all up for you. Many of our sites are deployed on Vercel or similar modern platforms for speed and reliability.",
   },
   {
-    question: "I'm in the UK/US — can we still work together smoothly?",
+    question: "I'm in the US, UK, or Europe — can we still work together smoothly?",
     answer:
-      "Absolutely. Our team works on IST, which overlaps well with UK mornings and US morning slots. Your dedicated project lead is available for calls and updates at times that suit your schedule.",
+      "Absolutely. Our team provides dedicated overlap with UK, European, and US business hours. Your dedicated project lead is available for calls and synchronous updates at times that suit your schedule perfectly.",
   },
   {
     question: "What if I already have a website that needs a redesign?",

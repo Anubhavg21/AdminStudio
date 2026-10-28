@@ -42,7 +42,7 @@ export default function Home() {
         {/* 8. Pricing (3 Tiers with INR/USD Toggle) */}
         <Pricing />
 
-        {/* 9. Why Anvik Comparison Table */}
+        {/* 9. Why Elevora Comparison Table */}
         <Comparison />
 
         {/* 10. Trust & Guarantees */}

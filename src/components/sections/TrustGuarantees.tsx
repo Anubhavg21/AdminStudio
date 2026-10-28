@@ -29,7 +29,7 @@ export function TrustGuarantees() {
           <ScrollReveal>
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent/[0.08] border border-accent/20 mb-4">
               <span className="text-[12px] font-semibold text-accent uppercase tracking-wider">
-                Risk-Free Collaboration
+                Risk-Free Guarantees
               </span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4">

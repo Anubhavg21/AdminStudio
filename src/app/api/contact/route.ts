@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     }
 
     // TODO: Wire up to Resend, SendGrid, or Google Sheets webhooks
-    console.log("[Anvik Studio] New Contact Submission:", {
+    console.log("[Elevora] New Contact Submission:", {
       timestamp: new Date().toISOString(),
       name,
       contactInfo,
@@ -26,7 +26,7 @@ export async function POST(request: Request) {
       message: "Enquiry received successfully",
     });
   } catch (err) {
-    console.error("[Anvik Studio] Contact submission error:", err);
+    console.error("[Elevora] Contact submission error:", err);
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }

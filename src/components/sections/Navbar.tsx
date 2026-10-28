@@ -33,7 +33,7 @@ export function Navbar() {
             className="font-heading text-[22px] font-extrabold tracking-tight text-foreground"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            Anvik
+            Elevora
             <span className="text-accent">.</span>
           </a>
 

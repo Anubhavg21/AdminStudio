@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://anvikstudio.com/sitemap.xml",
+    sitemap: "https://elevora.com/sitemap.xml",
   };
 }

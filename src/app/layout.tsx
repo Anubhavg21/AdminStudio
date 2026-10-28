@@ -18,26 +18,29 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://anvikstudio.com"),
-  title: "Anvik Studio — Web Development That Converts | India, US & UK",
+  metadataBase: new URL("https://elevora.com"),
+  title: "Elevora — Senior Digital Agency | Web, Automations & Growth",
   description:
-    "One point of contact. Two expert developers. We build websites that turn visitors into customers. Serving businesses in India, the US and the UK.",
+    "Elevora is a senior digital agency engineering high-converting websites, web apps, CRM systems, and AI automations for ambitious businesses worldwide.",
   keywords: [
+    "Elevora",
+    "digital agency",
     "web development agency",
-    "Next.js developer",
+    "Next.js agency",
     "e-commerce development",
-    "website design India",
-    "web developer UK",
-    "web developer US",
-    "Anvik Studio",
+    "AI automations",
+    "CRM setup",
+    "custom web apps",
+    "Meta ads agency",
+    "SEO services",
   ],
-  authors: [{ name: "Anvik Studio" }],
+  authors: [{ name: "Elevora" }],
   openGraph: {
-    title: "Anvik Studio — Web Development That Converts",
+    title: "Elevora — Senior Digital Agency | Web, Automations & Growth",
     description:
-      "One point of contact. Two expert developers. Websites that turn visitors into customers.",
-    url: "https://anvikstudio.com", // TODO: Replace with real URL
-    siteName: "Anvik Studio",
+      "One dedicated team. Senior talent. Websites, systems, and growth tools that turn visitors into customers.",
+    url: "https://elevora.com",
+    siteName: "Elevora",
     type: "website",
     locale: "en_US",
     images: [
@@ -45,15 +48,15 @@ export const metadata: Metadata = {
         url: "/work/archifit-desktop.png",
         width: 1200,
         height: 630,
-        alt: "Anvik Studio - Premium Web Development",
+        alt: "Elevora - Senior Digital Agency",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anvik Studio — Web Development That Converts",
+    title: "Elevora — Senior Digital Agency | Web, Automations & Growth",
     description:
-      "One point of contact. Two expert developers. Websites that turn visitors into customers.",
+      "One dedicated team. Senior talent. Websites, systems, and growth tools that turn visitors into customers.",
   },
   robots: {
     index: true,
@@ -69,16 +72,16 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": ["Organization", "ProfessionalService"],
-    name: "Anvik Studio",
+    name: "Elevora",
     description:
-      "Web development agency serving businesses in India, the US and the UK.",
-    url: "https://anvikstudio.com", // TODO: Replace with real URL
-    logo: "https://anvikstudio.com/logo.png",
+      "Senior digital agency engineering web platforms, CRM architectures, and AI automations for ambitious companies worldwide.",
+    url: "https://elevora.com",
+    logo: "https://elevora.com/logo.png",
     contactPoint: {
       "@type": "ContactPoint",
-      email: "hello@anvikstudio.com",
+      email: "anubhavgup21@gmail.com",
       contactType: "customer service",
-      areaServed: ["IN", "US", "GB"],
+      areaServed: ["US", "GB", "EU", "IN"],
       availableLanguage: "English",
     },
     address: {

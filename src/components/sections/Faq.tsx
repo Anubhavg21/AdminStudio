@@ -28,7 +28,7 @@ export function Faq() {
               Frequently asked questions.
             </h2>
             <p className="text-lg text-muted">
-              Everything you need to know about working with Anvik Studio. If you have any other questions, we are just a WhatsApp away.
+              Everything you need to know about working with Elevora. If you have any other questions, we are just a WhatsApp away.
             </p>
           </ScrollReveal>
         </div>

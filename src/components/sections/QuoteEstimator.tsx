@@ -49,12 +49,12 @@ export function QuoteEstimator() {
     selectedPages;
 
   const whatsappMessage = encodeURIComponent(
-    `Hi! I used the quote estimator on Anvik Studio:\n- Website Type: ${typeLabel}\n- Pages: ${pagesLabel}\n- Features: ${selectedFeatures.join(
+    `Hi! I used the quote estimator on Elevora:\n- Website Type: ${typeLabel}\n- Pages: ${pagesLabel}\n- Features: ${selectedFeatures.join(
       ", "
     )}\n- Estimated range: ${formattedMin} - ${formattedMax}\n\nI'd like to get an exact quote.`
   );
 
-  const mailtoLink = `mailto:${contact.email}?subject=Quote Request from Anvik Studio&body=${whatsappMessage}`;
+  const mailtoLink = `mailto:${contact.email}?subject=Quote Request from Elevora&body=${whatsappMessage}`;
 
   return (
     <section id="quote" className="py-14 sm:py-18 bg-surface border-y border-border-light relative">

@@ -17,7 +17,7 @@ export function FloatingWhatsApp() {
       )}
 
       <a
-        href={`https://wa.me/${contact.whatsapp}?text=Hi!%20I'm%20visiting%20Anvik%20Studio%20and%20would%20like%20to%20discuss%20a%20project.`}
+        href={`https://wa.me/${contact.whatsapp}?text=Hi!%20I'm%20visiting%20Elevora%20and%20would%20like%20to%20discuss%20a%20project.`}
         target="_blank"
         rel="noopener noreferrer"
         onMouseEnter={() => setShowTooltip(true)}

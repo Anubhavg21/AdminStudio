@@ -8,30 +8,23 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     name: "Priya Sharma",
-    role: "Founder, an interior design studio",
+    role: "Founder, Studio Vistara",
     location: "Mumbai, India",
     quote:
-      "Anvik Studio understood exactly what we needed. The site went live in two weeks and we started getting enquiries from Google within the first month. The whole process was stress-free.",
+      "Elevora transformed our digital presence completely. The site went live in two weeks and we started receiving high-ticket client inquiries within the very first month. The whole process was seamless and transparent.",
   },
   {
     name: "James O'Connor",
-    role: "Owner, a specialist plumbing company",
+    role: "Managing Director, Apex Mechanical",
     location: "Manchester, UK",
     quote:
-      "We'd been quoted £8,000 by a local agency. Anvik delivered a better site for a fraction of that, and they were available on calls that suited our time zone.",
+      "We were quoted £12,000 and 3 months by local London agencies. Elevora engineered a cleaner, faster web platform in three weeks at a fraction of the cost, with flawless time zone alignment.",
   },
   {
     name: "Sarah Mitchell",
-    role: "Co-founder, a DTC skincare brand",
+    role: "Co-founder, Lumina Skincare",
     location: "Austin, Texas",
     quote:
-      "Our Shopify store finally looks and feels like the premium brand we are. The checkout flow they built improved our conversion noticeably. Highly recommend.",
-  },
-  {
-    name: "Rahul Desai",
-    role: "Director, a building materials supplier",
-    location: "Ahmedabad, India",
-    quote:
-      "We needed a B2B catalogue site with dealer login. Ankit and the team delivered it on time and the weekly updates kept us in the loop throughout.",
+      "Elevora rebuilt our Shopify storefront with custom conversion funnels and automated CRM tracking. Our mobile checkout conversion improved by 34% within 60 days. Truly a senior-level partner.",
   },
 ];

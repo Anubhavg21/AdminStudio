@@ -12,7 +12,7 @@ export function Comparison() {
           <ScrollReveal>
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent/[0.08] border border-accent/20 mb-4">
               <span className="text-[12px] font-semibold text-accent uppercase tracking-wider">
-                Why Anvik Studio
+                Why Elevora
               </span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4">
@@ -42,7 +42,7 @@ export function Comparison() {
                   <th className="py-5 px-6 text-sm font-bold text-accent bg-accent/[0.04]">
                     <div className="flex items-center gap-2">
                       <ShieldCheck className="w-4 h-4 text-accent" />
-                      <span>Anvik Studio</span>
+                      <span>Elevora</span>
                     </div>
                   </th>
                 </tr>
@@ -65,7 +65,7 @@ export function Comparison() {
                     <td className="py-4 px-6 font-semibold text-foreground bg-accent/[0.04]">
                       <div className="flex items-center gap-2">
                         <Check className="w-4 h-4 text-success shrink-0" />
-                        <span>{row.anvik}</span>
+                        <span>{row.elevora}</span>
                       </div>
                     </td>
                   </tr>

@@ -24,10 +24,10 @@ export function Testimonials() {
           </ScrollReveal>
         </div>
 
-        {/* 4 Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* 3 Cards Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {testimonials.map((item, index) => (
-            <ScrollReveal key={item.name} delay={index * 0.08}>
+            <ScrollReveal key={item.name} delay={index * 0.08} className="flex flex-col">
               <div className="h-full p-8 rounded-3xl bg-surface border border-border shadow-xs hover:border-accent/40 hover:shadow-lg transition-all flex flex-col justify-between">
                 <div>
                   <Quote className="w-8 h-8 text-accent/30 mb-4" />

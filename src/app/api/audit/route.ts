@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     }
 
     // TODO: Wire up to Loom / notification workflow or CRM
-    console.log("[Anvik Studio] New Free Audit Request:", {
+    console.log("[Elevora] New Free Audit Request:", {
       timestamp: new Date().toISOString(),
       url,
       email,
@@ -24,7 +24,7 @@ export async function POST(request: Request) {
       message: "Audit request registered",
     });
   } catch (err) {
-    console.error("[Anvik Studio] Audit submission error:", err);
+    console.error("[Elevora] Audit submission error:", err);
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }

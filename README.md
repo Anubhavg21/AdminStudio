@@ -1,6 +1,6 @@
-# Anvik Studio — Web Agency Website
+# Elevora — Senior Digital Agency Website
 
-A premium, conversion-focused, single-page agency website built for **Anvik Studio**, engineered with Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion, and Lucide icons.
+A premium, conversion-focused, single-page agency website built for **Elevora**, engineered with Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion, and Lucide icons.
 
 ---
 
@@ -75,8 +75,8 @@ All placeholders are marked with `// TODO:` comments across the codebase for eas
 3. Import this repository.
 4. Framework preset will automatically detect **Next.js**.
 5. Click **Deploy**.
-6. (Optional) In project settings, assign your custom domain (e.g. `anvikstudio.com`).
+6. (Optional) In project settings, assign your custom domain (e.g. `elevora.com`).
 
 ---
 
-© 2026 Anvik Studio. Built with speed, clarity, and conversion in mind.
+© 2026 Elevora. Built with speed, clarity, and conversion in mind.

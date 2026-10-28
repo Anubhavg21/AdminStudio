@@ -12,14 +12,14 @@ export function Services() {
           <ScrollReveal>
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent/[0.08] border border-accent/20 mb-4">
               <span className="text-[12px] font-semibold text-accent uppercase tracking-wider">
-                Capabilities & Services
+                Services & Capabilities
               </span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4">
-              Full-spectrum web, CRM &amp; AI solutions for modern businesses.
+              Full-spectrum digital solutions for modern businesses.
             </h2>
             <p className="text-lg text-muted">
-              Whether you need a high-converting website, automated CRM pipelines, or custom AI tools, our team designs and engineers it end-to-end.
+              Whether you need a high-converting website, automated CRM pipelines, or custom AI agents, we design and engineer it end-to-end.
             </p>
           </ScrollReveal>
         </div>

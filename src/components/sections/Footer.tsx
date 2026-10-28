@@ -21,13 +21,13 @@ export function Footer() {
               href="#"
               className="font-heading text-2xl font-extrabold tracking-tight text-foreground block mb-3"
             >
-              Anvik<span className="text-accent">.</span>
+              Elevora<span className="text-accent">.</span>
             </a>
             <p className="text-sm text-muted max-w-sm leading-relaxed mb-6">
-              One point of contact. Two expert developers. Websites engineered to turn visitors into loyal customers.
+              Senior digital agency engineering high-converting websites, intelligent automations, and growth systems for ambitious businesses worldwide.
             </p>
             <p className="text-xs text-muted/80">
-              Serving ambitious businesses across India, the UK, and the United States.
+              Serving ambitious founders and companies across the US, UK, Europe, and India.
             </p>
           </div>
 
@@ -91,7 +91,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <div>
-            © 2026 Anvik Studio. All rights reserved.
+            © 2026 Elevora. All rights reserved.
           </div>
 
           <div className="flex items-center gap-6">
@@ -127,7 +127,7 @@ export function Footer() {
             </h3>
             <div className="text-xs text-muted space-y-3 leading-relaxed max-h-80 overflow-y-auto pr-2">
               <p>
-                At Anvik Studio, we take confidentiality and data privacy seriously. All project proposals, codebases, business logic, and communication remain strictly between the client and Anvik Studio.
+                At Elevora, we take confidentiality and data privacy seriously. All project proposals, codebases, business logic, and communication remain strictly confidential between the client and Elevora.
               </p>
               <p>
                 We never sell, share, or disclose client contact information or source code. Non-disclosure agreements (NDAs) are available upon request prior to project kick-off.

@@ -1,17 +1,14 @@
 export const contact = {
-  /** TODO: Replace with real email */
-  email: "hello@anvikstudio.com",
-  phone: "+91 85720 30864",
-  whatsapp: "918572030864",
-  /** TODO: Replace with real Calendly link */
-  calendlyUrl: "https://calendly.com/anvikstudio/discovery",
-  /** TODO: Replace with real social links */
+  email: "anubhavgup21@gmail.com",
+  phone: "+91 77270 71906",
+  whatsapp: "917727071906",
+  calendlyUrl: "https://calendly.com/elevora/discovery",
   socials: {
-    instagram: "https://instagram.com/anvikstudio",
-    linkedin: "https://linkedin.com/company/anvikstudio",
-    twitter: "https://twitter.com/anvikstudio",
+    instagram: "https://instagram.com/elevora",
+    linkedin: "https://linkedin.com/company/elevora",
+    twitter: "https://twitter.com/elevora",
   },
-  location: "India — serving clients in India, US and UK",
+  location: "India & Worldwide — serving clients in the US, UK, Europe, and India",
 };
 
 export const navLinks = [
@@ -26,13 +23,14 @@ export const techStack = [
   "Next.js",
   "React",
   "Node.js",
-  "Shopify",
-  "WooCommerce",
-  "WordPress",
   "Tailwind CSS",
+  "Shopify",
+  "WordPress",
   "MongoDB",
   "Stripe",
   "Razorpay",
+  "TypeScript",
+  "PostgreSQL",
 ];
 
 export const processSteps = [
@@ -40,58 +38,58 @@ export const processSteps = [
     step: 1,
     title: "Discovery Call",
     description:
-      "A free 20-minute call where we learn about your business, goals and budget.",
+      "A free 20-minute call where we dive deep into your business goals, target audience, and project timeline.",
   },
   {
     step: 2,
     title: "Proposal & Fixed Quote",
     description:
-      "You receive a clear proposal with scope, timeline and a fixed price — no surprises.",
+      "You receive a clear scope document, architecture plan, and guaranteed fixed-price quote—zero surprises.",
   },
   {
     step: 3,
     title: "Design Preview",
     description:
-      "We create a visual preview of your site so you can see it before any code is written.",
+      "We design a high-fidelity interactive preview of your site so you can experience it before code is written.",
   },
   {
     step: 4,
     title: "Development with Weekly Updates",
     description:
-      "Our developers build your site while keeping you updated every week.",
+      "Our senior developers build your project with clean code, testing, and weekly video walkthroughs.",
   },
   {
     step: 5,
     title: "Launch & 30-Day Support",
     description:
-      "We deploy your site, run a quality check and provide 30 days of free post-launch support.",
+      "We deploy to production, run QA and SEO checklists, and provide 30 days of complimentary technical support.",
   },
 ];
 
 export const trustPoints = [
   {
     title: "Milestone Payments",
-    description: "40% upfront · 30% at design · 30% on launch",
+    description: "40% upfront • 30% at design • 30% on launch",
   },
   {
-    title: "You Own the Code",
-    description: "100% source code ownership, always",
+    title: "100% Source Code Ownership",
+    description: "Full intellectual property and source code ownership transferred on completion.",
   },
   {
     title: "NDA on Request",
-    description: "Happy to sign a non-disclosure agreement",
+    description: "Happy to execute a mutual non-disclosure agreement prior to kickoff.",
   },
   {
     title: "30-Day Free Support",
-    description: "Bug fixes and minor tweaks after launch",
+    description: "Complimentary bug fixes, performance monitoring, and minor adjustments.",
   },
   {
-    title: "24-Hour Response",
-    description: "We reply within one business day, guaranteed",
+    title: "24-Hour Response Guarantee",
+    description: "Direct answers and updates within one business day, guaranteed.",
   },
   {
-    title: "Weekly Updates",
-    description: "Stay in the loop with progress reports",
+    title: "Weekly Progress Updates",
+    description: "Milestone demos and recorded walkthroughs keep you completely informed.",
   },
 ];
 
@@ -104,37 +102,37 @@ export const paymentMethods = [
 ];
 
 export const comparisonTable = {
-  headers: ["", "Freelancer", "Big Agency", "Anvik Studio"],
+  headers: ["Factor", "Solo Freelancer", "Big Agency", "Elevora"],
   rows: [
     {
       label: "Communication",
-      freelancer: "Slow, unstructured",
-      agency: "Account manager layers",
-      anvik: "One dedicated point of contact",
+      freelancer: "Slow, inconsistent replies",
+      agency: "Layers of account managers",
+      elevora: "Direct access to senior talent",
     },
     {
       label: "Cost",
-      freelancer: "Cheap but risky",
-      agency: "Expensive",
-      anvik: "Fair, fixed pricing",
+      freelancer: "Cheap but unpredictable",
+      agency: "Expensive with heavy markup",
+      elevora: "Fair, transparent fixed pricing",
     },
     {
-      label: "Speed",
-      freelancer: "Unpredictable",
-      agency: "Slow (big teams)",
-      anvik: "Fast — small, focused team",
+      label: "Speed & Delivery",
+      freelancer: "Missed deadlines & delays",
+      agency: "Months of bureaucracy",
+      elevora: "Fast delivery (2–4 weeks average)",
     },
     {
       label: "Accountability",
-      freelancer: "Hard to enforce",
-      agency: "Bureaucratic",
-      anvik: "Milestone-based, transparent",
+      freelancer: "Hard to enforce without recourse",
+      agency: "Rigid corporate red tape",
+      elevora: "Milestone-based, transparent QA",
     },
     {
       label: "Post-Launch Support",
-      freelancer: "Often disappears",
-      agency: "Expensive retainers",
-      anvik: "30 days free, then affordable plans",
+      freelancer: "Often disappears after launch",
+      agency: "High-priced monthly retainers",
+      elevora: "30 days free support included",
     },
   ],
 };
