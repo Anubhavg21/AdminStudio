@@ -4,8 +4,9 @@ import { TechStack } from "@/components/sections/TechStack";
 import { Services } from "@/components/sections/Services";
 import { Portfolio } from "@/components/sections/Portfolio";
 import { Process } from "@/components/sections/Process";
-import { QuoteEstimator } from "@/components/sections/QuoteEstimator";
-import { Pricing } from "@/components/sections/Pricing";
+import { AboutElevora } from "@/components/sections/AboutElevora";
+// Instant Quote Estimator section removed per request
+// Pricing section removed per request
 import { Comparison } from "@/components/sections/Comparison";
 import { TrustGuarantees } from "@/components/sections/TrustGuarantees";
 import { Testimonials } from "@/components/sections/Testimonials";
@@ -22,25 +23,28 @@ export default function Home() {
 
       <main className="flex-1">
         {/* 2. Hero */}
-        <Hero />
+        <div className="my-12 md:my-16"><Hero /></div>
 
         {/* 3. Tech Stack Marquee */}
-        <TechStack />
+        <div className="my-12 md:my-16"><TechStack /></div>
 
         {/* 4. Services Bento Grid */}
-        <Services />
+        <div className="my-12 md:my-16"><Services /></div>
 
         {/* 5. Selected Work (Most Important Section) */}
-        <Portfolio />
+        <div className="my-12 md:my-16"><Portfolio /></div>
 
         {/* 6. How We Work (5-Step Timeline) */}
-        <Process />
+        <div className="my-12 md:my-16"><Process /></div>
 
         {/* 7. Instant Quote Estimator */}
-        <QuoteEstimator />
+{/* Instant Quote Estimator section removed per request */}
+
+{/* About Elevora section */}
+<div className="my-12 md:my-16"><AboutElevora /></div>
 
         {/* 8. Pricing (3 Tiers with INR/USD Toggle) */}
-        <Pricing />
+{/* Pricing section removed per request */}
 
         {/* 9. Why Elevora Comparison Table */}
         <Comparison />
