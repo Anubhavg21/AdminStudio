@@ -4,12 +4,10 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
 import { navLinks, contact } from "@/data/site";
-import { useCurrency } from "@/lib/currency-context";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const { currency, toggleCurrency } = useCurrency();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -19,11 +17,10 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "bg-surface/80 backdrop-blur-xl border-b border-border-light shadow-[0_1px_3px_rgba(0,0,0,0.04)]"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-[72px]">
@@ -52,32 +49,6 @@ export function Navbar() {
 
           {/* Right Actions */}
           <div className="hidden lg:flex items-center gap-4">
-            {/* Currency Toggle */}
-            <button
-              onClick={toggleCurrency}
-              className="relative flex items-center w-[88px] h-[36px] rounded-full bg-background border border-border p-[3px] cursor-pointer transition-colors hover:border-accent/30"
-              aria-label={`Switch to ${currency === "INR" ? "USD" : "INR"}`}
-            >
-              <motion.div
-                className="absolute w-[40px] h-[30px] rounded-full bg-accent shadow-sm"
-                animate={{ x: currency === "INR" ? 0 : 42 }}
-                transition={{ type: "spring", stiffness: 500, damping: 30 }}
-              />
-              <span
-                className={`relative z-10 flex-1 text-center text-[12px] font-semibold transition-colors ${
-                  currency === "INR" ? "text-white" : "text-muted"
-                }`}
-              >
-                INR
-              </span>
-              <span
-                className={`relative z-10 flex-1 text-center text-[12px] font-semibold transition-colors ${
-                  currency === "USD" ? "text-white" : "text-muted"
-                }`}
-              >
-                USD
-              </span>
-            </button>
 
             {/* CTA */}
             <a
@@ -126,41 +97,13 @@ export function Navbar() {
                 </a>
               ))}
 
-              <div className="flex items-center gap-3 pt-4 border-t border-border-light">
-                <button
-                  onClick={toggleCurrency}
-                  className="relative flex items-center w-[88px] h-[36px] rounded-full bg-background border border-border p-[3px] cursor-pointer"
-                >
-                  <motion.div
-                    className="absolute w-[40px] h-[30px] rounded-full bg-accent"
-                    animate={{ x: currency === "INR" ? 0 : 42 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 500,
-                      damping: 30,
-                    }}
-                  />
-                  <span
-                    className={`relative z-10 flex-1 text-center text-[12px] font-semibold ${
-                      currency === "INR" ? "text-white" : "text-muted"
-                    }`}
-                  >
-                    INR
-                  </span>
-                  <span
-                    className={`relative z-10 flex-1 text-center text-[12px] font-semibold ${
-                      currency === "USD" ? "text-white" : "text-muted"
-                    }`}
-                  >
-                    USD
-                  </span>
-                </button>
+              <div className="pt-4 border-t border-border-light">
 
                 <a
                   href={contact.calendlyUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-accent text-white text-[14px] font-semibold"
+                  className="w-full inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-accent text-white text-[14px] font-semibold"
                 >
                   <Phone className="w-4 h-4" />
                   Book Free Call
